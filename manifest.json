@@ -1,0 +1,17 @@
+{
+    "name": "form filler extension",
+    "version": "1.0.0",
+    "description": "latest covid data of UK",
+    "manifest_version": 3,
+    "author": "Logesh Karthik",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Form Filler Extension"
+    },
+    "permissions":[
+        "tabs",
+        "http://*/*",
+        "https://*/*","storage", "declarativeContent", "activeTab", "scripting"
+    ]
+}
+
